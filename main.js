@@ -4,4 +4,6 @@ const lightOffbEl = document.querySelector(".light-off");
 
 lightOnbButtonEl.addEventListener("click", function () {
   lightOffbEl.style.display = "none";
+  lightOnbEl.classList.remove("d-none");
+  lightOnbEl.style.display = "inline-block";
 });
